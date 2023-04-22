@@ -18,26 +18,19 @@ body {
 main {
     background-image: url(imagens/frame-iphone.png);
     width: 311px;
-    height: 627px;
+    height: 626px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-/* main {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-} */
-
 main iframe {
-    width: 267px;
+    margin-left: 21px;
+    display: flex;
+    width: 268px;
     height: 471px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 80px;
 }
 
 aside {
